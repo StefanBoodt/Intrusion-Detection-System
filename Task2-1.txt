@@ -1,0 +1,11 @@
+If correctly formatted ARP with valid MAC and IP address - permitted
+
+ARP is incorrectly formatted - error
+ARP request has the wrong length - error
+ARP has invalid, or wrong formatted, MAC address - error
+ARP tries to bind IP address to link layer broadcast - error
+Send ARP violates the 'normal' bindings on the side of the switch - error
+
+ARP requests send to a non-broadcast address - notice
+ARP replies do not go to the unicast address instead of the sender and instead to the broadcast MAC address - notice
+ARP packets are not internally consistent in that the MAC addresses of the link layer header match those included in the ARP packet - notice

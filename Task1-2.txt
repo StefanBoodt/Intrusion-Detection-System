@@ -1,0 +1,1 @@
+There are two ways that I could find to get only TCP packets. The first is to check every packet to see if it is a TCP packet and only let them pass if they are. The second is to check the packet for other protocols and block those.
